@@ -2,7 +2,7 @@
 
 ::: details 点击查看代码
 
-```C#
+```csharp
    private string GetGrossProfitReportWhere()
         {
             string startTime = request.Params["StartTime"];
