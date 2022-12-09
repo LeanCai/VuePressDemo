@@ -109,6 +109,10 @@ module.exports = {
               path: "/home/",
             },
             {
+              title: "目录1介绍",
+              path: "/foo/",
+            },
+            {
               title: "one",
               path: "/foo/one",
             },
@@ -130,6 +134,10 @@ module.exports = {
               path: "/home/",
             },
             {
+              title: "目录2介绍",
+              path: "/bar/",
+            },
+            {
               title: "three",
               path: "/bar/three",
             },
@@ -146,6 +154,10 @@ module.exports = {
           path: "/home/", // 可选的, 标题的跳转链接，应为绝对路径且必须存在
           collapsable: false,
           children: [
+            {
+              title: "主目录介绍",
+              path: "/home/",
+            },
             {
               title: "目录1",
               path: "/foo/",
